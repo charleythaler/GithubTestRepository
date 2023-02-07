@@ -1,2 +1,5 @@
 #Test Python Code
-print('this is the test of the print command')
+import os
+os.system("ping 192.168.10.10")
+
+print('ping test complete')
